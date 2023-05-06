@@ -54,7 +54,7 @@ a{
 
 
 #hero{
-    background: linear-gradient(to top, rgba(10, 10, 10, 0.2)10%, rgba(10,10,10,0.2)10%), url(./img/리쥬란힐러-P.jpg);
+    background: linear-gradient(to top, rgba(10, 10, 10, 0.2)10%, rgba(10,10,10,0.2)10%), url(./img/리쥬란힐러-P-2.jpg);
     /* background-image: url(./img/리쥬란힐러-P.jpg); */
     background-size: cover;
     background-position: 65%;
@@ -453,6 +453,7 @@ span .vacancy{
     width: 100%;
     margin: 0 auto;
     padding: 100px 20px;
+    overflow: hidden;
 }
 
 /* 
@@ -488,6 +489,7 @@ span .vacancy{
     max-width: 500px;
     margin: 0 auto;
     padding: 10px 0;
+    
 }
 
 
@@ -502,7 +504,9 @@ span .vacancy{
     flex-direction: column;
     background-image: linear-gradient(60deg, #2e5077 0%, #485563 100%);
     color: white;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 2px auto;
+    width: 400px;
 }
 
 #col .name-title-col h3{
@@ -530,7 +534,7 @@ span .vacancy{
 }
 
 
-#col2 .name-title-col{
+#col2 .name-title-col2{
     padding: 30px;
     flex-basis: 100%;
     background-color: white;
@@ -541,10 +545,13 @@ span .vacancy{
     flex-direction: column;
     background-image: linear-gradient(60deg, hsl(69, 61%, 25%) 0%, #0f0f0f 100%);
     color: white;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 2px auto;
+    width: 400px;
 }
 
-#col2 .name-title-col h3{
+
+#col2 .name-title-col2 h3{
     font-family: kopub3;
     font-weight: bolder;
     font-size: 1.5rem;
@@ -553,12 +560,207 @@ span .vacancy{
     margin-bottom: 10px;
 }
 
-#col2 .name-title-col h4{
+#col2 .name-title-col2 h4{
     font-family: kopub;
     font-size: 1rem;
     font-weight: 500;
 
 }
+
+/* effect */
+
+#effect{
+    height: 1000px;
+    padding-top: 150px;
+    margin: 0 auto;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+#effect .effect-section p{
+    max-width: 800px;
+    text-align: center;
+    font-family: kopub;
+    font-size: 1.3rem;
+    margin:0 auto;
+    line-height: 2.5rem;
+    font-weight: 300px;
+    letter-spacing: 0.2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+#effect .effect-section-img{ 
+    
+    margin: 0 auto;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+#effect .effect-seclection-img-img{
+    width: 360px;
+    height: 300px;
+    
+}
+
+
+/*cost */
+
+#cost{
+    height: 1000px;
+    padding-top: 150px;
+    margin: 0 auto;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+#cost .cost-section p{
+    max-width: 800px;
+    text-align: center;
+    font-family: kopub;
+    font-size: 1.3rem;
+    margin:0 auto;
+    line-height: 2.5rem;
+    font-weight: 300px;
+    letter-spacing: 0.2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+#cost .cost-section-img{ 
+
+    margin: 0 auto;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+#cost .cost-seclection-img-img{
+    width: 360px;
+    height: 260px;
+    
+}
+
+
+/* effection */
+
+#effection {
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+
+#effection .effection-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#effection .effection-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+
+#effection .effection-info{
+    padding: 30px;
+    flex-basis: 50%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(120deg, #ff7200 1%, #1f0a14 90%, #ff7200 10%);
+    color: white;
+}
+    
+
+#effection .effection-info h2 {
+    font-family: kopub3;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    
+
+}
+
+
+#effection .effection-info p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+
+/* pic */
+
+#pic{
+    background-color: #fff0f0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#pic .pic-img{
+    margin: 0 auto;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+#pic .pic-img img{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    padding: 2px;
+    margin: 2px;
+
+}
+
+#last-text{
+    height: 500px;
+    
+    background-color: black;
+}
+
+#last-text .last-text{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#last-text .last-text-title{
+    font-family: pcp;
+    text-decoration: underline 5px orange;
+    text-underline-offset: 10px;
+    font-size: 3rem;
+    margin-top: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+
 
 
 .brand h2{
@@ -580,11 +782,12 @@ span .vacancy{
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 20px auto 70px;
+    margin: 0 auto 70px;
+    padding-top: 30px;
 }
 
 #footer .footer{
-    min-height: 200px;
+    min-height: 300px;
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 10px;
